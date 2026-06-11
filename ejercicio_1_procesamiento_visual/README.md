@@ -17,6 +17,7 @@ python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
+**NOTA:** La instalación de librerías puede tomar varios minutos.
 
 ## Uso
 
@@ -30,7 +31,9 @@ python src/main.py imagen.jpg --blur-gaussian
 python src/main.py imagen.jpg --detector-yolo
 ```
 
-Se pueden combinar varias opciones en una misma ejecución.
+**NOTA:** Se pueden combinar varias opciones en una misma ejecución.
+**NOTA:** La imagen fuente debe estar en el mismo directorio de ejecución.
+**NOTA:** La imagen resultado se almacena en el mismo directorio de ejecución.
 
 ## Parámetros usados
 
