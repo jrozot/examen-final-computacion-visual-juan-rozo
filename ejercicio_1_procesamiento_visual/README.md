@@ -6,6 +6,7 @@ directorio de la original con un sufijo (ej. `imagen_grey.jpg`).
 
 ## Dependencias
 
+- Python3 - pip - venv
 - opencv-python
 - numpy
 - ultralytics (YOLO)
@@ -32,7 +33,9 @@ python src/main.py imagen.jpg --detector-yolo
 ```
 
 **NOTA:** Se pueden combinar varias opciones en una misma ejecución.
+
 **NOTA:** La imagen fuente debe estar en el mismo directorio de ejecución.
+
 **NOTA:** La imagen resultado se almacena en el mismo directorio de ejecución.
 
 ## Parámetros usados
